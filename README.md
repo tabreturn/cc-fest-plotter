@@ -1,2 +1,11 @@
 # cc-fest-plotter
-Resources for my Virtual CC Fest session (Generative SVG for Pen Plotters using Python) 
+
+*Resources for my Virtual CC Fest session (Generative SVG for Pen Plotters using Python)*
+
+# TODO
+
+[x] setup repo
+[ ] add notes
+[ ] add slides
+[ ] add code samples
+[ ] ... 
