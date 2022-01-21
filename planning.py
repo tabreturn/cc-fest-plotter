@@ -100,7 +100,8 @@ print(open('layer-1.svg').read())
 
 # 4. tools > manage packages (install from file downloaded from https://github.com/LoicGoulefert/occult)
 
-vpype_cli.execute('read layer-1.svg occult -i write vpyped-----.svg')
+import os
+os.system('vpype read layer-1.svg occult -i write vpyped.svg')
 
 
 
