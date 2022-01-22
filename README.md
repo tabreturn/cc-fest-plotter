@@ -1,59 +1,76 @@
+
+
 # cc-fest-plotter
 
 *Resources for my Virtual CC Fest session (Generate SVG for Pen Plotters using Python)*
 
 
+## Session activities and materials
+
 *WIP*
 
 <!--
 
-
-## Session activities
-
 Here are the **session slides** and **session recording**: [slides.pdf](https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/slides.pdf) and [recording.mp4]( https://htmlpreview.github.io/?https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/recording.html)
 
-**1 - MyBinder.org notebook:** https://mybinder.org/v2/gh/hx2A/py5examples/HEAD?urlpath=lab
 
-**2 - Thonny plug-in instructions:** https://github.com/tabreturn/thonny-py5mode
+**1 - Tasks 1: SVG concepts** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/01-svg_concepts.svg
 
-**3 - Tasks:** https://github.com/tabreturn/cc-fest-py5/tree/main/tasks
+**2 - Tasks 2: py5 SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/02-py5_svg.py
 
----
+**3 - Tasks 3: Blender SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py
 
-
-## Official py5 resources
-
-* [py5 website](http://py5.ixora.io/)
-* [py5 reference](http://py5.ixora.io/reference/)
-* [py5 examples](https://github.com/hx2A/py5examples)
-* [The four py5 modes](http://py5.ixora.io/tutorials/py5-modes/)
-* [GitHub discussions (forum)](https://github.com/hx2A/py5generator)
-* [GitHub issues (bugs)](https://github.com/hx2A/py5generator/issues)
-* [Processing forum](https://discourse.processing.org/c/processing-py/9)
-
-
-## Other useful resources 
-
-* [Villares' list of Processing + Python resources](https://github.com/villares/Resources-for-teaching-programming#user-content-processing--python-tools-table)
-* [py5 cheatsheet](https://raw.githubusercontent.com/tabreturn/processing.py-cheat-sheet/master/py5/py5_cc.pdf)
-
-
-## Learn Python Visually book
-
-This book is based on [Processing.py](https://py.processing.org/), but it should be quite straight-forward adapting the content for py5. Eveything `camelCase` switches to `snake_case` -- for example, `colorMode()` becomes `color_mode()` and so forth. 
-
-<img src="http://portfolio.tabreturn.com/images/learn-python-visually.png" width="600" />
-
-You can find the source code and resources for all tasks in the [book's GitHub repository](https://github.com/tabreturn/processing.py-book). I'll get around to porting those to py5 ... sometime.
-
+**3 - Tasks 4: Blender SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py
 
 -->
 
 
-# TODO
+## py5 resources
 
-- [x] setup repo
-- [ ] add notes
-- [ ] add slides
-- [ ] add code samples
-- [ ] ... 
+py5 is a new version of Processing for Python 3.8+. It makes the Java Processing jars available to the CPython interpreter using JPype. It can do just about everything Processing can do, except with Python instead of Java code.
+
+* [py5 documentation](http://py5.ixora.io/)
+* [py5 examples](https://github.com/hx2A/py5examples)
+* [py5 discussions](https://github.com/hx2A/py5generator/discussions)
+* [thonny-py5mode plug-in](https://github.com/tabreturn/thonny-py5mode)
+* [py5 cheatsheet](https://raw.githubusercontent.com/tabreturn/processing.py-cheat-sheet/master/py5/py5_cc.pdf)
+
+The [Processing forum](https://discourse.processing.org/c/processing-py/9) is also great for help with anything Processing + Python related.
+
+
+## Useful plotter utilities
+
+A handy (but hardly complete) list of useful software for working with plotter art files.
+
+* [Beardicus' awesome Plotters list](https://github.com/beardicus/awesome-plotters) -- curated list of code and resources for computer-controlled drawing machines and other visual art robots
+* [Msurguy's awesome 3d-engines-for-plotters list](https://github.com/msurguy/awesome-3d-engines-for-plotters) -- links to awesome 3D SVG exporters
+* [occult](https://github.com/LoicGoulefert/occult) -- vpype plug-in to remove lines occulted by polygons from SVG file
+* [pattener](https://github.com/matheynen/patterner) -- a tool to easy plot or create png from random pattern
+* [plotter.vision](https://plotter.vision/) -- upload 3D STL files, interactively position them, then render them as SVG
+* [UJI](https://doersino.github.io/uji/) -- a minimalist generative art thing -- press the buttons and play with the sliders
+* [vpype](https://github.com/abey79/vpype) -- the Swiss-Army-knife command-line tool for plotter vector graphics
+* [vsketch](https://github.com/abey79/vsketch) -- a Python generative art toolkit for plotters
+
+[Drawingbots.net](https://drawingbots.net/) is on a mission to become the central place on the web to discover the world of drawing robots, get inspiration, and talk to other drawing robot enthusiasts.
+
+
+## Other useful resources
+
+Other useful Python/plotter/creative coding resources.
+
+* [Villares' comprehensive list of resources](https://github.com/villares/Resources-for-teaching-programming#user-content-processing--python-tools-table) for teaching programming for artists, designers and architects
+
+* [PlotterFiles](https://plotterfiles.com/) hosts free SVG files for plotters and drawing robots
+
+The book, [Learn Python Visually](https://nostarch.com/Learn-Python-Visually) is based on [Processing.py](https://py.processing.org/), but it should be relatively straight-forward adapting the content for py5. Everything `camelCase` switches to `snake_case` -- so, for example, `colorMode()` becomes `color_mode()` and so forth.
+
+## Inspiration
+
+Just a few of the many great artist creating plotter art --
+
+[Antoine Beyeler](https://github.com/abey79/sketches) · [Binaura](https://www.binaura.net/) · [Gábor Ugray](https://jealousmarkup.xyz/plots/) · [Iskra Velitchkova](http://iskraovelitchkova.com/works.html) · [Jakob Glock](https://github.com/JakobGlock/Generative-Art) · [Julien Espagnon](https://www.instagram.com/julien_espagnon/) · [Julien Gachadoat](http://www.v3ga.net/) · [Matthis Grunsky](https://www.matthisgrunsky.ca/) · [Michael Fogleman](https://www.michaelfogleman.com/plotter/) · [Sohan Murthy](https://sohan.space/) · [thedotisblack](https://thedotisblack.com/)
+
+The [Anne and Michael Spalter Digital Art Collection](https://spalterdigital.com/) includes a lot of groundbreaking plotter artwork (Vera Molnar, Georg Nees, Frieder Nake, ...)
+
+Also, check Twitter for [#plottertwitter](https://twitter.com/search?q=%2523plottertwitter), [#py5](https://twitter.com/search?q=%2523plottertwitter), and [#generativeart + #blender](https://twitter.com/search?q=%2523generativeart%20%2523blender)
+
