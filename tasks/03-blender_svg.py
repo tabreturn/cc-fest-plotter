@@ -1,56 +1,53 @@
-# foo.py
+# SECTION 1: SETUP THE BLENDER FILE ===========================================
+
+# 1. open blender and save the project as ~/<proj>/setup.blend
+# 2. install freestyle (edit > preferences > add-ons > freestyle svg exporter)
+# 3. properties panel > render properties > enable "freestyle svg export"
+# 4. properties panel > render properties > enable "freestyle"
+# 5. properties panel > output properties > output path of ~/<proj>/render.svg
+# 6. test the render (render > render image)
+# 7. delete the cube and save
+# more freestyle options: properties panel > layer properties > freestyle ...)
+
+
+# SECTION 2: A BLENDER SCRIPT =================================================
+
+# you can use the internal blender code editor (scripting workspace) --
+# but i'll go external, running blender 'headless' (using thonny and terminal)
+
+# 1. in thonny, tools > manage packages > install "fake-bpy-module"
+
 import bpy
 from mathutils import Vector
 import random
+random.seed(123)
 
-bpy.ops.mesh.primitive_cone_add(location=(-3, 0, 0))
-output = '/home/nuc/Desktop/render.png'
+# 2. draw a cone (test automcomplete while writing this line)
 
-origin=(0, 0, 0)
-n=30
-r0=3
-r1=1.25
+bpy.ops.mesh.primitive_cone_add(location=(0, 0, 0))
+bpy.context.scene.render.filepath = 'render'
+bpy.ops.render.render()  # for a png, add arg write_still=True
+
+# 3. add metaballs
 
 metaball = bpy.data.metaballs.new('MetaBall')
 obj = bpy.data.objects.new('MetaBallObject', metaball)
 bpy.context.collection.objects.link(obj)
 metaball.resolution = 0.1
 metaball.render_resolution = 0.1
-for i in range(n):
-    location = Vector(origin) + Vector(random.uniform(-r0, r0) for i in range(3))
+for i in range(30):
+    location = Vector((0, 0, 0)) + Vector(
+                                     random.uniform(-2, 2) for i in range(3))
     element = metaball.elements.new()
     element.co = location
-    element.radius = r1
+    element.radius = 0.8
+
+# re-render (by moving this code above the cone code)
 
 
-bpy.context.scene.render.filepath = output
-bpy.ops.render.render(write_still=True)
+# SECTION 3: CLEANING UP WITH VPYPE ===========================================
 
+# from here, i might clean up the metaballs with vpype filter & linemerge
+# e.g. vpype read render0001.svg filter -m 50 linemerge -t 50 write out.svg
+# see reference at: https://vpype.readthedocs.io/en/stable/reference.html
 
-
-
-
-import os
-
-def vpype_it():
-    os.system('vpype read render.png0001.svg filter -m 50 write done.svg')
-
-# Will be executed once when the whole rendering process is completed
-bpy.app.handlers.render_post.append(vpype_it)
-
-bpy.ops.render.render('INVOKE_DEFAULT', write_still = True) 
-
-
-
-
-#from subprocess import call
-#call(['blender','-b','untitled.blend','-P','bpy.py'])
-
-#linemerge
-
-# vpype read input.svg filter -m 50 write output.svg
-# https://vpype.readthedocs.io/en/stable/reference.html#filter
-
-#~/Apps/blender/blender -b untitled.blend -P bpy.py
-
-#
