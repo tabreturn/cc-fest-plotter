@@ -7,9 +7,23 @@
 
 ## Session activities and materials
 
-*--- WORK IN PROGRESS COMING SOON ---*
+```
+
+~~~ WORK IN PROGRESS - COMING SOON ~~~
+
+
+```
 
 <!--
+
+
+slides outline
+
+1. quick intro to what a plotter is/does
+2. my plotter art
+3. discuss that i'm using axidraw (with inkscape, although there is a python api)
+4. ...
+
 
 Here are the **session slides** and **session recording**: [slides.pdf](https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/slides.pdf) and [recording.mp4]( https://htmlpreview.github.io/?https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/recording.html)
 
@@ -20,7 +34,7 @@ Here are the **session slides** and **session recording**: [slides.pdf](https://
 
 **3 - Tasks 3: Blender SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py
 
-**3 - Tasks 4: Blender SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py
+**3 - Tasks 4: Codeless SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/04-codeless_svg.md
 
 -->
 
@@ -47,6 +61,7 @@ A handy (but hardly complete) list of useful software for working with plotter a
 * [occult](https://github.com/LoicGoulefert/occult) -- vpype plug-in to remove lines occulted by polygons from SVG file
 * [pattener](https://github.com/matheynen/patterner) -- a tool to easy plot or create png from random pattern
 * [plotter.vision](https://plotter.vision/) -- upload 3D STL files, interactively position them, then render them as SVG
+* [Processing Geometry Suite](https://github.com/micycle1/PGS) software project that provides easy access to 2D geometric algorithms in the form of a Processing library
 * [UJI](https://doersino.github.io/uji/) -- a minimalist generative art thing -- press the buttons and play with the sliders
 * [vpype](https://github.com/abey79/vpype) -- the Swiss-Army-knife command-line tool for plotter vector graphics
 * [vsketch](https://github.com/abey79/vsketch) -- a Python generative art toolkit for plotters
