@@ -7,7 +7,7 @@
 
 ## Session activities and materials
 
-*WIP*
+*--- WORK IN PROGRESS COMING SOON ---*
 
 <!--
 
