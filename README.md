@@ -4,8 +4,7 @@
 
 *Resources for my Virtual CC Fest session (Generate SVG for Pen Plotters using Python)*
 
-
-
+![images/banner.png]()
 
 ## Session activities and materials
 
