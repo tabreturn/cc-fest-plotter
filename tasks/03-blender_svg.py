@@ -25,10 +25,15 @@ random.seed(123)
 # 2. draw a cone (test automcomplete while writing this line)
 
 bpy.ops.mesh.primitive_cone_add(location=(0, 0, 0))
+
+# 3. render using the command line:
+# /<blender_install>/blender -b setup.blend -P 03-blender_svg.py
+# note that blender uses it's own python env (which does include pip)
+
 bpy.context.scene.render.filepath = 'render'
 bpy.ops.render.render()  # for a png, add arg write_still=True
 
-# 3. add metaballs
+# 4. add metaballs
 
 metaball = bpy.data.metaballs.new('MetaBall')
 obj = bpy.data.objects.new('MetaBallObject', metaball)
@@ -42,7 +47,7 @@ for i in range(30):
     element.co = location
     element.radius = 0.8
 
-# re-render (by moving this code above the cone code)
+# 5. re-render (by moving the metaball code above the cone code)
 
 
 # SECTION 3: CLEANING UP WITH VPYPE ===========================================
