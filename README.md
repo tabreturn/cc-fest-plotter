@@ -14,7 +14,7 @@
 
 <!--
 
-Here are the **session slides** and **session recording**: [slides.pdf](https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/slides.pdf) and [recording.mp4]( https://htmlpreview.github.io/?https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/recording.html)
+Here are the **session slides** and **session recording**: [slides.pdf](https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/slides.pdf) and [recording.mp4](https://htmlpreview.github.io/?https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/recording.html)
 
 
 **1 - Tasks 1: SVG concepts** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/01-svg_concepts.svg?short_path=c784224
