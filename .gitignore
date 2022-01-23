@@ -1,0 +1,5 @@
+tasks/*.blend
+tasks/*.svg
+tasks/*!01-svg_concepts.svg
+.~*
+

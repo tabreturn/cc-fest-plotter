@@ -2,26 +2,17 @@
 
 *Resources for my Virtual CC Fest 2022 session (Generate SVG for Pen Plotters using Python)*
 
-![](images/banner.png)
+![](banner.png)
 
 ## Session activities and materials
 
 ```
 
-~~~ WORK IN PROGRESS - COMING SOON ~~~
+~~~ WORK IN PROGRESS · COMING SOON ~~~
 
 ```
 
 <!--
-
-
-slides outline
-
-1. quick intro to what a plotter is/does
-2. my plotter art
-3. discuss that i'm using axidraw (with inkscape, although there is a python api)
-4. ...
-
 
 Here are the **session slides** and **session recording**: [slides.pdf](https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/slides.pdf) and [recording.mp4]( https://htmlpreview.github.io/?https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/recording.html)
 
