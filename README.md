@@ -17,13 +17,13 @@
 Here are the **session slides** and **session recording**: [slides.pdf](https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/slides.pdf) and [recording.mp4]( https://htmlpreview.github.io/?https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/recording.html)
 
 
-**1 - Tasks 1: SVG concepts** https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/tasks/01-svg_concepts.svg
+**1 - Tasks 1: SVG concepts** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/01-svg_concepts.svg
 
 **2 - Tasks 2: py5 SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/02-py5_svg.py
 
 **3 - Tasks 3: Blender SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py
 
-**3 - Tasks 4: Codeless SVG** https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/tasks/04-codeless_svg.md
+**3 - Tasks 4: Codeless SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/04-codeless_svg.md
 
 -->
 
