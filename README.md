@@ -58,6 +58,17 @@ A handy (but hardly complete) list of useful software for working with plotter a
 I recommend exploring [drawingbots.net](https://drawingbots.net/), which is on a mission "to become the central place on the web to discover the world of drawing robots, get inspiration, and talk to other drawing robot enthusiasts."
 
 
+## Inspiration
+
+A few (of the many) artists creating inspiring plotter art --
+
+[Antoine Beyeler](https://github.com/abey79/sketches) · [Binaura](https://www.binaura.net/) · [Gábor Ugray](https://jealousmarkup.xyz/plots/) · [Iskra Velitchkova](http://iskraovelitchkova.com/works.html) · [Jakob Glock](https://github.com/JakobGlock/Generative-Art) · [Julien Espagnon](https://www.instagram.com/julien_espagnon/) · [Julien Gachadoat](http://www.v3ga.net/) · [Matthis Grunsky](https://www.matthisgrunsky.ca/) · [Michael Fogleman](https://www.michaelfogleman.com/plotter/) · [Sohan Murthy](https://sohan.space/) · [thedotisblack](https://thedotisblack.com/)
+
+The [Anne and Michael Spalter Digital Art Collection](https://spalterdigital.com/) includes plotter artworks from several groundbreaking artists (Vera Molnar, Georg Nees, Frieder Nake, ...)
+
+Also, check Twitter for [#plottertwitter](https://twitter.com/search?q=%2523plottertwitter), [#py5](https://twitter.com/search?q=%2523plottertwitter), and [#generativeart + #blender](https://twitter.com/search?q=%2523generativeart%20%2523blender).
+
+
 ## Other useful resources
 
 Other useful plotter and Python creative coding resources:
@@ -69,14 +80,3 @@ Other useful plotter and Python creative coding resources:
 [Learn Python Visually](https://nostarch.com/Learn-Python-Visually) is a book based on [Processing.py](https://py.processing.org/), but it should be relatively straight-forward adapting the content for py5. Everything `camelCase` switches to `snake_case` -- so, `colorMode()` becomes `color_mode()`, and so forth. I ~~plan~~ hope to adapt the book for py5 in 2022.
 
 * Learn Python Visually [GitHub repository](https://github.com/tabreturn/processing.py-book) for the book's official resources and code, as well as solutions to challenges.
-
-## Inspiration
-
-A few (of the many) artists creating inspiring plotter art --
-
-[Antoine Beyeler](https://github.com/abey79/sketches) · [Binaura](https://www.binaura.net/) · [Gábor Ugray](https://jealousmarkup.xyz/plots/) · [Iskra Velitchkova](http://iskraovelitchkova.com/works.html) · [Jakob Glock](https://github.com/JakobGlock/Generative-Art) · [Julien Espagnon](https://www.instagram.com/julien_espagnon/) · [Julien Gachadoat](http://www.v3ga.net/) · [Matthis Grunsky](https://www.matthisgrunsky.ca/) · [Michael Fogleman](https://www.michaelfogleman.com/plotter/) · [Sohan Murthy](https://sohan.space/) · [thedotisblack](https://thedotisblack.com/)
-
-The [Anne and Michael Spalter Digital Art Collection](https://spalterdigital.com/) includes plotter artworks from several groundbreaking artists (Vera Molnar, Georg Nees, Frieder Nake, ...)
-
-Also, check Twitter for [#plottertwitter](https://twitter.com/search?q=%2523plottertwitter), [#py5](https://twitter.com/search?q=%2523plottertwitter), and [#generativeart + #blender](https://twitter.com/search?q=%2523generativeart%20%2523blender).
-
