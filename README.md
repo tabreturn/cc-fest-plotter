@@ -6,23 +6,23 @@
 
 ## Session activities and materials
 
-Here are the **session slides** and **session recording**: [slides.pdf](https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/slides.pdf) and [recording.mp4](https://htmlpreview.github.io/?https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/recording.html)
+Here are the **session slides** and **session recording**: [slides.pdf](https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/slides.pdf) and [recording.mp4](https://htmlpreview.github.io/?https://raw.githubusercontent.com/tabreturn/cc-fest-plotter/main/recording.html) (uploaded after event)
 
 
-There is a file for each task --
+Here are the files for each task:
 
-**1 - Tasks 1: SVG concepts** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/01-svg_concepts.svg?short_path=c784224
+**1 - Tasks 1: SVG concepts** -- [01-svg_concepts.svg](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/01-svg_concepts.svg?short_path=c784224)
 
-**2 - Tasks 2: py5 SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/02-py5_svg.py
+**2 - Tasks 2: py5 SVG** -- [02-py5_svg.py](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/02-py5_svg.py)
 
-**3 - Tasks 3: Blender SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py
+**3 - Tasks 3: Blender SVG** -- [03-blender_svg.py](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py)
 
-**3 - Tasks 4: Codeless SVG** https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/04-codeless_svg.md?plain=1
+**3 - Tasks 4: Codeless SVG** -- [04-codeless_svg.md](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/04-codeless_svg.md?plain=1)
 
 
 ## py5 resources
 
-py5 is a new version of Processing for Python 3.8+. It makes the Java Processing jars available to the CPython interpreter using JPype. It can do just about everything Processing can do, except with Python instead of Java code.
+""py5 is a new version of Processing for Python 3.8+. It makes the Java Processing jars available to the CPython interpreter using JPype. It can do just about everything Processing can do, except with Python instead of Java code."
 
 * [py5 documentation](http://py5.ixora.io/)
 * [py5 examples](https://github.com/hx2A/py5examples)
@@ -39,8 +39,7 @@ A handy (but hardly complete) list of useful software for working with plotter a
 
 * [Beardicus' Awesome Plotters list](https://github.com/beardicus/awesome-plotters) -- a curated list of code and resources for computer-controlled drawing machines and other visual art robots
 * [Msurguy's 3d-engines-for-plotters list](https://github.com/msurguy/awesome-3d-engines-for-plotters) -- links to awesome 3D SVG exporters
-* [occult](https://github.com/LoicGoulefert/occult) -- vpype plug-in to remove lines occulted by polygons from SVG file
-* [pattener](https://github.com/matheynen/patterner) -- a tool to easy plot or create png from random pattern
+* [occult](https://github.com/LoicGoulefert/occult) -- vpype plug-in to remove lines occulted by polygons from SVG files
 * [plotter.vision](https://plotter.vision/) -- upload 3D STL files, interactively position them, then render them as SVG
 * [Processing Geometry Suite](https://github.com/micycle1/PGS) -- a software project that provides easy access to 2D geometric algorithms in the form of a Processing library
 * [UJI](https://doersino.github.io/uji/) -- a minimalist generative art thing; press the buttons and play with the sliders
