@@ -102,7 +102,7 @@ vpype_cli.execute('read layer-1.svg linesort write --pen-up vpyped.svg')
 # 2. install it using tools > manage packages > install from local file
 
 import os
-os.system('vpype read comnined.svg occult -i write vpyped.svg')
+os.system('vpype read combined.svg occult -i write vpyped.svg')
 
 # also check out other vpype cool plug-ins, like: 
 # vpype-pixelart, hatched (half-toning with hatches)
