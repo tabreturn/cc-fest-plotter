@@ -11,13 +11,13 @@ Here are the **session slides** and **session recording**: [slides.pdf](https://
 
 Here are the files for each task:
 
-**Tasks 1: SVG concepts** -- [01-svg_concepts.svg](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/01-svg_concepts.svg?short_path=b06e63b)
+**Task 1: SVG concepts** -- [01-svg_concepts.svg](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/01-svg_concepts.svg?short_path=b06e63b)
 
-**Tasks 2: py5 SVG** -- [02-py5_svg.py](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/02-py5_svg.py)
+**Task 2: py5 SVG** -- [02-py5_svg.py](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/02-py5_svg.py)
 
-**Tasks 3: Blender SVG** -- [03-blender_svg.py](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py)
+**Task 3: Blender SVG** -- [03-blender_svg.py](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/03-blender_svg.py)
 
-**Tasks 4: Codeless SVG** -- [04-codeless_svg.md](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/04-codeless_svg.md?plain=1)
+**Task 4: Codeless SVG** -- [04-codeless_svg.md](https://github.com/tabreturn/cc-fest-plotter/blob/main/tasks/04-codeless_svg.md?plain=1)
 
 
 ## py5 resources
