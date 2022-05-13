@@ -57,7 +57,7 @@ A few (of the many) artists creating inspiring plotter art --
 
 The [Anne and Michael Spalter Digital Art Collection](https://spalterdigital.com/) includes plotter artwork from several groundbreaking artists (Vera Molnar, Frieder Nake, Georg Nees, ...)
 
-Also, check Twitter for [#plottertwitter](https://twitter.com/search?q=%2523plottertwitter), [#py5](https://twitter.com/search?q=%2523plottertwitter), and [#generativeart + #blender](https://twitter.com/search?q=%2523generativeart%20%2523blender).
+Also, check Twitter for [#plottertwitter](https://twitter.com/search?q=%2523plottertwitter), [#py5](https://twitter.com/search?q=%2523py5), and [#generativeart + #blender](https://twitter.com/search?q=%2523generativeart%20%2523blender).
 
 
 ## Other useful resources
